@@ -27,5 +27,5 @@
 # 5. Next we will try to use Spark for transforming data on the fly:
   - We can run this command: **sudo docker exec -it kafka_project_container spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.0.3 /project/hands-on/clean_data.py**
   - To check if our data is streaming we can use this command: **sudo docker exec -it kafka_project_container python /project/run_consumer.py /project/credentials.ini ronald-data-clean**
-  - Next we can open confluent to see our data
+  - Lastly we can open confluent to see our streamed data
     ![image](https://github.com/goglex112/kafka_project/assets/92841420/11563f7b-8f21-4f33-b344-465f7f4ad898)
